@@ -28,7 +28,7 @@ function startAnimation() {
         document.getElementById("button2").style.display = "block";
       }
     }
-    if (index === 8) { // если индекс равен 11 (т.е. 12 элемент массива), включаем музыку
+    if (index === 10) { // если индекс равен 10 (т.е. 11 элемент массива), включаем музыку
       var audio = document.getElementById("audio");
       audio.currentTime = 10; // устанавливаем начальную позицию воспроизведения в секундах
       audio.play(); // запускаем воспроизведение музыки
